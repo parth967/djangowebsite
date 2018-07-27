@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	{% load static %}
+</head>
+<body background="{%static '/back.jpg' %}">
+<center><h2 style="background: blue; height: 60px; color: white; padding-top: 20px; font-size: 40px;">Profile</h2></br>
+
+</center>
+<table cellpadding="10px" cellspacing="10px">
+	<tr><td>
+<img src="{%static '/parth.jpg' %}" alt="Mypic" style="border-radius: 10px; " height="200px" width="150px"></td><td>
+<h3><a style="color: red;">Name: </a>{{name}}</br> <a style="color: red;"> Enrollment no:</a>{{enroll}}</h3></td>
+</table>
+</body>
+</html>
